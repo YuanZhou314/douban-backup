@@ -104,7 +104,7 @@ async function extractItem(page, item) {
     await page.goto(item.link, { waitUntil: 'domcontentloaded' }).catch(err => { console.log('GOTO error with:', item.link, item.title, err) });
     const found = await page.$('#content h1 .year');
     if (found) { // means this item can be seen at least
-        const year = await page.$eval('#content h1 .year', el => el.textContent.slice(1, -1)); // 电影上映时间
+        const year = await page.$eval('#content h1 .year', el => el.textContent.slice(1, -1)); // 上映年份
         item.year = year;
 
         try {

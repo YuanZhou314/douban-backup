@@ -94,7 +94,7 @@ async function handleNewItems() {
   for (let i = 0; i < csvData.length; i++) {
     const row = csvData[i]; // reverse the array
     const link = row[DB_PROPERTIES.ITEM_LINK];
-    delete row['上映日期'];
+    delete row['上映年份'];
 
     let itemData;
     try {

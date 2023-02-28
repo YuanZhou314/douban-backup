@@ -20,7 +20,7 @@
   '评分': '5',
   '评分日期': '2015/03/21',
   '我的评价': '5星打的绝对不是剧情！为建国，为toma，为一众cast就  是如此任性ˊ_>ˋ(1 有用)',
-  '上映日期': '2015/01/16',
+  '上映年份': '2015/01/16',
   '上映地点': '日本',
   '条目链接': 'https://movie.douban.com/subject/25953663/'
 }
@@ -68,7 +68,7 @@
   ]
   },
   '我的评价': { id: 'wG?R', type: 'rich_text', rich_text: [[Object]] },
-  '上映时间': { id: 'xghA', type: 'number', number: 2016 },
+  '上映年份': { id: 'xghA', type: 'number', number: 2016 },
   '导演': { id: 'y]UL', type: 'rich_text', rich_text: [[Object]] },
   '电影': { id: 'title', type: 'title', title: [[Object]] }
 }
