@@ -289,7 +289,7 @@
       let title = isWish ? ['电影'] : ['电影', '评分', '评分日期', '我的评价'];
       let key = isWish ? ['title', 'release_date'] : ['title', 'rating', 'rating_date', 'comment', 'release_date'];
       if (type === MOVIE) {
-        title = title.concat(['上映日期', '制片国家', '条目链接']);
+        title = title.concat(['上映日期', '上映地点', '条目链接']);
         key = key.concat(['country', 'link']);
       } else if (type === BOOK) {
         title = title.concat(['出版日期', '作者', '条目链接']);
