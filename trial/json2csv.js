@@ -21,7 +21,7 @@ const adapter = new FileSync(inputFile);
 const db = low(adapter);
 const values = db.getState().values;
 
-const headers = ['封面', '标题', '个人评分', '打分日期', '我的短评', '上映年份', '导演', '主演', '类型', '条目链接', 'IMDb 链接'];
+const headers = ['封面', '电影', '个人评分', '打分日期', '我的短评', '上映年份', '导演', '主演', '类型', '条目链接', 'IMDb 链接'];
 const keys = ['img', 'title', 'rate', 'rate_date', 'comment', 'year', 'director', 'actors', 'genre', 'link', 'imdb'];
 const rows = values.map(item => {
     return keys.map(k => {
