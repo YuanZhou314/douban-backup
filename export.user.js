@@ -286,7 +286,7 @@
         return item;
       });
 
-      let title = isWish ? ['电影'] : ['电影', '个人评分', '打分日期', '我的短评'];
+      let title = isWish ? ['电影'] : ['电影', '评分', '评分日期', '我的评价'];
       let key = isWish ? ['title', 'release_date'] : ['title', 'rating', 'rating_date', 'comment', 'release_date'];
       if (type === MOVIE) {
         title = title.concat(['上映日期', '制片国家', '条目链接']);

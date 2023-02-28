@@ -2,10 +2,10 @@ const DB_PROPERTIES = {
     // movie
     POSTER: '封面', // common
     TITLE: '电影', // common
-    RATING: '个人评分', // common
-    RATING_DATE: '打分日期', // common
-    COMMENTS: '我的短评', // common
-    YEAR: '上映年份',
+    RATING: '评分', // common
+    RATING_DATE: '评分日期', // common
+    COMMENTS: '我的评价', // common
+    YEAR: '上映时间',
     DIRECTORS: '导演',
     ACTORS: '主演',
     GENRE: '类型', // movie, game, drama

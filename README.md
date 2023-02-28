@@ -17,9 +17,9 @@
   <pre>
 {
   '电影': '无间双龙：这份爱，才是正义 / ウロボロス～この愛こそ正  義。',
-  '个人评分': '5',
-  '打分日期': '2015/03/21',
-  '我的短评': '5星打的绝对不是剧情！为建国，为toma，为一众cast就  是如此任性ˊ_>ˋ(1 有用)',
+  '评分': '5',
+  '评分日期': '2015/03/21',
+  '我的评价': '5星打的绝对不是剧情！为建国，为toma，为一众cast就  是如此任性ˊ_>ˋ(1 有用)',
   '上映日期': '2015/01/16',
   '制片国家': '日本',
   '条目链接': 'https://movie.douban.com/subject/25953663/'
@@ -42,13 +42,13 @@
         url: 'https://www.imdb.com/title/tt5419278'
   },
   '主演': { id: 'X{lL', type: 'rich_text', rich_text: [[Object]] },
-  '个人评分': {
+  '评分': {
     id: 'Z^ph',
     type: 'multi_select',
     multi_select: [ { id: 'FRXk', name: '5', color: 'pink' } ]
     // multi_select: [], // empty array if no value for rating
   },
-  '打分日期': {
+  '评分日期': {
     id: 'e\\{[',
       type: 'date',
         date: { start: '2021-01-19', end: null }
@@ -67,8 +67,8 @@
     }
   ]
   },
-  '我的短评': { id: 'wG?R', type: 'rich_text', rich_text: [[Object]] },
-  '上映年份': { id: 'xghA', type: 'number', number: 2016 },
+  '我的评价': { id: 'wG?R', type: 'rich_text', rich_text: [[Object]] },
+  '上映时间': { id: 'xghA', type: 'number', number: 2016 },
   '导演': { id: 'y]UL', type: 'rich_text', rich_text: [[Object]] },
   '电影': { id: 'title', type: 'title', title: [[Object]] }
 }
