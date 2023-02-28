@@ -58,7 +58,7 @@
       type: 'multi_select',
         multi_select: [[Object], [Object]]
   },
-  '海报': {
+  '封面': {
     id: 't@Fv',
     type: 'files',
     files: [
@@ -141,6 +141,6 @@ RSS 的好处一个是轻量，但又包含了个人标记的最重要的几个�
 
 
 ## todo
-- 补全 notion 中的海报
+- 补全 notion 中的封面
 - 添加 *在\** 或者 *想\** 列表，考虑一下如何显示？
 - userscript 添加导出 在* 和 想* 的功能
